@@ -1,0 +1,29 @@
+
+<sumo-detectors>
+<!--  <e1Detector id="13_0" lane="-39063_0" pos="250" freq="1" file="detector.xml"/>
+  <e1Detector id="13_1" lane="-39063_1" pos="250" freq="1" file="detector.xml"/>
+  <e1Detector id="13_2" lane="-39063_2" pos="250" freq="1" file="detector.xml"/>
+  <e1Detector id="12_0" lane="-39029_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="12_1" lane="-39040#1_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="10_0" lane="-39043_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="10_1" lane="-39043_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="9_0" lane="-38980_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="9_1" lane="-38980_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="8_0" lane="-38991#1_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="8_1" lane="-38991#1_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="8_2" lane="-38991#1_1" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="8_3" lane="-38991#1_1" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="6_0" lane="-39059_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="6_1" lane="-39059_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="6_2" lane="-39059_1" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="6_3" lane="-39059_1" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="5_0" lane="-39027_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="5_1" lane="-39027_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="3_0" lane="-39048_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="3_1" lane="-39048_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="2_0" lane="-38989_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="2_1" lane="-38989_0" pos="150" freq="1" file="detector.xml"/>
+  <e1Detector id="1_1" lane="-39053#0_0" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="1_2" lane="-39053#0_1" pos="10" freq="1" file="detector.xml"/>
+  <e1Detector id="1_3" lane="-39053#0_2" pos="10" freq="1" file="detector.xml"/> -->
+</sumo-detectors>

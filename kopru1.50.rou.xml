@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/05/17 15:15:31 by SUMO duarouter Version 0.31.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="map.rou.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="100.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+   
+     <route id = "1_5" edges="-39053#0 -39053#1 -39044 -39049#0 -39049#1 -38993 -39036#0 -39027"/>
+	 <route id = "1_8" edges="-39053#0 -39053#1 -39044 -39049#0 -39049#1 -38993 -39036#0 -39036#1 -39036#2.0 -39036#2.34.49 -38991#1"/>
+	 <route id = "1_13" edges="-39053#0 -39053#1 -39044 -39049#0 -39049#1 -38993 -39036#0 -39036#1 -39036#2.0 -39036#2.34.49 -38983 -39030.42 -39018 -39012 -39032 -39033 -38999 -39006 -39028 -39001 -39063"/> 
+     <route id = "2_5" edges="-38989 -39053#1 -39044 -39049#0 -39049#1 -38993 -39036#0 -39027"/>
+	 <route id = "2_8" edges="-38989 -39053#1 -39044 -39049#0 -39049#1 -38993 -39036#0 -39036#1 -39036#2.0 -39036#2.34.49 -38991#1"/>
+	 <route id = "2_13" edges="-38989  -39053#1 -39044 -39049#0 -39049#1 -38993 -39036#0 -39036#1 -39036#2.0 -39036#2.34.49 -38983 -39030.42 -39018 -39012 -39032 -39033 -38999 -39006 -39028 -39001 -39063"/>
+	 <route id = "3_5" edges="-39048 -38993 -39036#0 -39027"/>
+	 <route id = "3_8" edges="-39048 -38993 -39036#0 -39036#1 -39036#2.0 -39036#2.34.49 -38991#1"/>		
+	 <route id = "3_13" edges="-39048 -38993 -39036#0 -39036#1 -39036#2.0 -39036#2.34.49 -38983 -39030.42 -39018 -39012 -39032 -39033 -38999 -39006 -39028 -39001 -39063"/>
+	 <route id = "6_8" edges="-39059.0 -39059.5419 -39036#2.0 -39036#2.34.49 -38991#1"/>
+	 <route id = "6_13" edges="-39059.0 -39059.5419 -39036#2.0 -39036#2.34.49 -38983 -39030.42 -39018 -39012 -39032 -39033 -38999 -39006 -39028 -39001 -39063"/>
+	 <route id = "9_13" edges="-38980 -39030.42 -39018 -39012 -39032 -39033 -38999 -39006 -39028 -39001 -39063"/>
+	 <route id = "10_13" edges="-39043 -39018 -39012 -39032 -39033 -38999 -39006 -39028 -39001 -39063"/> 
+	 <route id = "12_13" edges="-39040#1 -39029 -39028 -39001 -39063"/> 
+   	<vType id="car" vClass="passenger" speedDev="0.2" latAlignment="compact" probability="0.3"/>
+	
+	 <flow id="1_5_0" begin="0" end="900" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_0" begin="0" end="900" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_0" begin="0" end="900" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_0" begin="0" end="900" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_0" begin="0" end="900" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_0" begin="0" end="900" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_0" begin="0" end="900" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_0" begin="0" end="900" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_0" begin="0" end="900" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_0" begin="0" end="900" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="6_13_0" begin="0" end="900" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_0" begin="0" end="900" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="10_13_0" begin="0" end="900" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="12_13_0" begin="0" end="900" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_1" begin="900" end="1800" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_1" begin="900" end="1800" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_1" begin="900" end="1800" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_1" begin="900" end="1800" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_1" begin="900" end="1800" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_1" begin="900" end="1800" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_1" begin="900" end="1800" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+     <flow id="3_8_1" begin="900" end="1800" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_1" begin="900" end="1800" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_1" begin="900" end="1800" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_1" begin="900" end="1800" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_1" begin="900" end="1800" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_1" begin="900" end="1800" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_1" begin="900" end="1800" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_2" begin="1800" end="2700" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_2" begin="1800" end="2700" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_2" begin="1800" end="2700" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_2" begin="1800" end="2700" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+     <flow id="2_8_2" begin="1800" end="2700" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_2" begin="1800" end="2700" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_2" begin="1800" end="2700" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_2" begin="1800" end="2700" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_2" begin="1800" end="2700" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_2" begin="1800" end="2700" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_2" begin="1800" end="2700" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_2" begin="1800" end="2700" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_2" begin="1800" end="2700" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_2" begin="1800" end="2700" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_3" begin="2700" end="3600" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_3" begin="2700" end="3600" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_3" begin="2700" end="3600" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_3" begin="2700" end="3600" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_3" begin="2700" end="3600" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_3" begin="2700" end="3600" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="3_5_3" begin="2700" end="3600" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_3" begin="2700" end="3600" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_3" begin="2700" end="3600" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_3" begin="2700" end="3600" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_3" begin="2700" end="3600" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_3" begin="2700" end="3600" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_3" begin="2700" end="3600" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_3" begin="2700" end="3600" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_4" begin="3600" end="4500" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_4" begin="3600" end="4500" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_4" begin="3600" end="4500" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_4" begin="3600" end="4500" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_4" begin="3600" end="4500" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_4" begin="3600" end="4500" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_4" begin="3600" end="4500" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_4" begin="3600" end="4500" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_4" begin="3600" end="4500" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_4" begin="3600" end="4500" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_4" begin="3600" end="4500" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_4" begin="3600" end="4500" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="10_13_4" begin="3600" end="4500" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_4" begin="3600" end="4500" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_5" begin="4500" end="5400" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_5" begin="4500" end="5400" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_5" begin="4500" end="5400" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_5" begin="4500" end="5400" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_5" begin="4500" end="5400" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_5" begin="4500" end="5400" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_5" begin="4500" end="5400" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_5" begin="4500" end="5400" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_5" begin="4500" end="5400" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_5" begin="4500" end="5400" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_5" begin="4500" end="5400" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_5" begin="4500" end="5400" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_5" begin="4500" end="5400" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_5" begin="4500" end="5400" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_6" begin="5400" end="6300" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_6" begin="5400" end="6300" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_6" begin="5400" end="6300" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_6" begin="5400" end="6300" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_6" begin="5400" end="6300" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_6" begin="5400" end="6300" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_6" begin="5400" end="6300" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_6" begin="5400" end="6300" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_6" begin="5400" end="6300" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_6" begin="5400" end="6300" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_6" begin="5400" end="6300" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+	 <flow id="9_13_6" begin="5400" end="6300" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_6" begin="5400" end="6300" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_6" begin="5400" end="6300" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 <flow id="1_5_7" begin="6300" end="7200" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_7" begin="6300" end="7200" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_7" begin="6300" end="7200" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_7" begin="6300" end="7200" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_7" begin="6300" end="7200" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_7" begin="6300" end="7200" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_7" begin="6300" end="7200" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_7" begin="6300" end="7200" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_7" begin="6300" end="7200" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_7" begin="6300" end="7200" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_7" begin="6300" end="7200" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_7" begin="6300" end="7200" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_7" begin="6300" end="7200" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_7" begin="6300" end="7200" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/>
+	 
+	 
+	 <flow id="1_5_8" begin="7200" end="8100" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_8" begin="7200" end="8100" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_8" begin="7200" end="8100" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_8" begin="7200" end="8100" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_8" begin="7200" end="8100" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_8" begin="7200" end="8100" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_8" begin="7200" end="8100" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_8" begin="7200" end="8100" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_8" begin="7200" end="8100" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_8" begin="7200" end="8100" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_8" begin="7200" end="8100" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_8" begin="7200" end="8100" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_8" begin="7200" end="8100" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_8" begin="7200" end="8100" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/> 
+	 
+	 <flow id="1_5_9" begin="8100" end="9000" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_9" begin="8100" end="9000" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_9" begin="8100" end="9000" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_9" begin="8100" end="9000" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_9" begin="8100" end="9000" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_9" begin="8100" end="9000" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_9" begin="8100" end="9000" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_9" begin="8100" end="9000" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_9" begin="8100" end="9000" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_9" begin="8100" end="9000" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_9" begin="8100" end="9000" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_9" begin="8100" end="9000" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_9" begin="8100" end="9000" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_9" begin="8100" end="9000" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/> 
+	 
+	 <flow id="1_5_10" begin="9000" end="9900" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_8_10" begin="9000" end="9900" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="1_13_10" begin="9000" end="9900" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_5_10" begin="9000" end="9900" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_8_10" begin="9000" end="9900" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="2_13_10" begin="9000" end="9900" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_5_10" begin="9000" end="9900" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_8_10" begin="9000" end="9900" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="3_13_10" begin="9000" end="9900" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_8_10" begin="9000" end="9900" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="6_13_10" begin="9000" end="9900" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="9_13_10" begin="9000" end="9900" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="10_13_10" begin="9000" end="9900" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/>
+	 <flow id="12_13_10" begin="9000" end="9900" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/> 
+	 
+	 <flow id="1_5_11" begin="9900" end="10800" number="150" route="1_5" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="1_8_11" begin="9900" end="10800" number="150" route="1_8" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="1_13_11" begin="9900" end="10800" number="150" route="1_13" type="car" departLane="random" departPosLat="random"/> 
+     <flow id="2_5_11" begin="9900" end="10800" number="150" route="2_5" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="2_8_11" begin="9900" end="10800" number="150" route="2_8" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="2_13_11" begin="9900" end="10800" number="150" route="2_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="3_5_11" begin="9900" end="10800" number="150" route="3_5" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="3_8_11" begin="9900" end="10800" number="150" route="3_8" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="3_13_11" begin="9900" end="10800" number="150" route="3_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="6_8_11" begin="9900" end="10800" number="450" route="6_8" type="car" departLane="random" departPosLat="random"/> 
+ 	 <flow id="6_13_11" begin="9900" end="10800" number="450" route="6_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="9_13_11" begin="9900" end="10800" number="450" route="9_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="10_13_11" begin="9900" end="10800" number="450" route="10_13" type="car" departLane="random" departPosLat="random"/> 
+	 <flow id="12_13_11" begin="9900" end="10800" number="900" route="12_13" type="car" departLane="random" departPosLat="random"/> 
+	 
+
+</routes>
